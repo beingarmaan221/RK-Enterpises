@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   padding-top: 90px;
+  background: #CCC;
 }
 
 html{
@@ -204,6 +205,10 @@ html{
   height: auto;
   margin-bottom: 15px;
   cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 100px; */
+  margin-left: 100px;
 }
 
 .product-title {
@@ -294,6 +299,8 @@ html{
 
 .footer-column img{
   cursor: pointer;
+  /* margin-left: 80px; */
+  margin-top: 5px;
 }
 .footer-column h3 {
   font-size: 18px;
@@ -577,6 +584,10 @@ display: none;
   color: #ccc;           /* Optional hover effect */
 }
 
+.footer-column img{
+  margin-left: 80px;
+  margin-top: 10px;
+}
 
 
   /* Logo left */
@@ -589,10 +600,6 @@ display: none;
   margin-left: 22px;
   
 }
-
-
-
-
 
 .logo {
      position: relative; 
@@ -630,8 +637,8 @@ display: none;
 
 
 
-  .product-section{
-    
+  .product-card img{
+    margin-left: 45px;
   }
 
 
@@ -728,10 +735,23 @@ display: none;
 
 
 
+@media (max-width: 360px) {
+ 
+  .product-grid{
+    flex-direction: column;
+  }
+}
 
 
 
 
+
+@media (max-width: 300px) {
+ 
+  .product-grid{
+    flex-direction: column;
+  }
+}
 
 
 
